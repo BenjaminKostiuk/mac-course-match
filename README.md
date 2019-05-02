@@ -1,32 +1,30 @@
-# Project 03 : Course Match
-The third project of the CS1XA3 course. 
-
-This project contains the complete source code for CourseMatch: McMaster's first CourseMatching online portal where students can view and match what courses their friends are taking.
+# MAC Course Match
+This project contains the complete source code for CourseMatch: A prototype for McMaster University's first CourseMatching online portal where students can view and match what courses their friends are taking.
 
 ## Getting Started
 
 ### Setup
 * From your desired directory clone the repository with
     ~~~
-    git clone https://github.com/BenjaminKostiuk/CS1XA3.git
+    git clone https://github.com/BenjaminKostiuk/mac-course-match.git
     ~~~
 * Download python 3 if you haven't already from [here](https://www.python.org/downloads/).
 * Create a __python virtual environment__ with ```python -m venv ./python_env```
 * Activate the environment with ```source python_env/bin/activate```
 * Install the required packages to your environment with
     ~~~
-    pip install -r CS1XA3/Project03/requirements.txt
+    pip install -r mac-course-match/requirements.txt
     ~~~
-* Navigate to the django folder with ```cd CS1XA3/Project03/django_project/```
+* Navigate to the django folder with ```cd mac-course-match/django_project/```
 * Collect the static files needed to run the server with
     ~~~
     python manage.py collectstatic
     ~~~
 * Run the django server with
     ~~~
-    python manage.py runserver localhost:10031
+    python manage.py runserver localhost:8000
     ~~~
-* Navigate to <https://mac1xa3.ca/e/kostiukb/coursematch/static/index.html>
+* Navigate to <http://localhost:8000/coursematch/static/index.html>
 * Login or Create a new account and start using Course Match!
 
 __Note__: To terminate the server simply press ```Ctrl-C```
@@ -40,12 +38,12 @@ All static code used by django can be found in ```elm-pages/static-files/```.
 
 #### In order to update files served by django:
 * Place any static files or resources (html, js, img, css etc.) in ```elm-pages/static-files/```
-* Navigate to the django project directory with ```cd CS1XA3/Project03/django_project/```
+* Navigate to the django project directory with ```cd mac-course-match/django_project/```
 * Collect all static files with
     ~~~
     python manage.py collectstatic
     ~~~
-* Run the server again with ```python manage.py runserver localhost:10031```
+* Run the server again with ```python manage.py runserver localhost:8000```
 
 ## Features
 
