@@ -112,14 +112,9 @@ Password : turingpassword
 MacID : davidp<br/>
 Password : parnaspassword
 
-__Note:__: Should you want to reset the database, from the base django directory run:
-    ~~~
-    python manage.py flush
-    ~~~
-Once the database flushed you can create new classes, user accounts etc. with:
-    ~~~
-    python manage.py shell
-    ~~~
+__Note:__ Should you want to reset the database, from the base django directory run ```python manage.py flush```.
+
+Once the database flushed you can create new classes, user accounts etc. with ```python manage.py shell```, don't forget to import the require models.
 
 ## Built With
 * Django
