@@ -123,7 +123,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 # Change these to store static files elsewhere
-STATIC_URL = '/e/kostiukb/coursematch/static/'
+STATIC_URL = '/coursematch/static/'
 STATICFILES_DIRS = [
     "../elm-pages/static-files",
 ]

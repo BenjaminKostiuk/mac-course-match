@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 # Routes from localhost:PORT/e/kostiukb/
-root = 'e/kostiukb/'    #Change this root to reroute requests
+root = ''    #Change this root to reroute requests
 
 urlpatterns = [
     path(root + 'coursematchauth/', include('coursematch_auth.urls')),

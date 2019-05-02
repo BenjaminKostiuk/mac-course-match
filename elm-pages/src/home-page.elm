@@ -15,7 +15,7 @@ main =
  Browser.element { init = init, update = update, subscriptions = \_ -> Sub.none, view = view }
  
 -- Change root URL as needed to route requests
-rootUrl = "https://mac1xa3.ca/e/kostiukb/"
+rootUrl = "http://localhost:8000/"
 
 -- Base colors used in the css for various elements
 colors = [ "danger", "info", "success", "warning", "secondary" ]

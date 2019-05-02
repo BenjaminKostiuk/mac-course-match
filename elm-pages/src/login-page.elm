@@ -13,7 +13,7 @@ main =
  Browser.element { init = init, update = update, subscriptions = \_ -> Sub.none, view = view }
 
 -- Change root URL as needed to route requests
-rootUrl = "https://mac1xa3.ca/e/kostiukb/"
+rootUrl = "http://localhost:8000/"
 
 -- Model: Holds username, password from inputs and error message
 type alias Model = { macid : String, password : String, checked : Bool, error : String }
