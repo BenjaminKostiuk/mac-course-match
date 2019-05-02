@@ -92,7 +92,7 @@ Beautiful SVG illustrations hand-picked from [Undraw.co](https://undraw.co/illus
 Profile Avatars sourced from [Flaticon's free icon packs](https://www.flaticon.com/)
 
 ### Other
-Most of the elm view functions are converted from html using [this](https://mbylstra.github.io/html-to-elm/) Html to Elm converter. The data is then formatted and inputted using Elm functionality.
+Most of the elm view functions are converted from html using this [Html to Elm converter](https://mbylstra.github.io/html-to-elm/). The data is then formatted and inputted using Elm functionality.
 
 ## Testing
 
@@ -112,11 +112,23 @@ Password : turingpassword
 MacID : davidp<br/>
 Password : parnaspassword
 
+__Note:__: Should you want to reset the database, from the base django directory run:
+    ~~~
+    python manage.py flush
+    ~~~
+Once the database flushed you can create new classes, user accounts etc. with:
+    ~~~
+    python manage.py shell
+    ~~~
+
 ## Built With
 * Django
 * Elm
 * Html
 * Css
 
-## Authors 
+## Authors
 Benjamin Kostiuk
+
+### What for?
+This project was created in part for the CS1XA3 course as a final project.
